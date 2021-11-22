@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} Contact {% endblock%}
+
+{% block content %}
+<h1>Numerical Part</h1>
+Part of this project is a numerical computations. The computations will verify the theoretical results.
+The aim is to compute rebound of an ellastic structure in a fluid. 
+The code is based on finite element method, which is based on weak formulation of the problem. The discretization 
+in finite element method is based on a finite mesh describing the domain. We will use Arbitrary Lagrangian-Eulerian (ALE)
+mothod for dealing with fluid-structure problem.
+<h2>ALE method</h2>
+Let us assume, that we have a moving domain.
+<h2>Remeshing</h2>
+<h2>Benchmark</h2>
+We will compute the fluid-structure problem on a simple benchmark to verify,
+whether the rebound can be computed with sufficient precision.
+The benchmark is in 2D because the computation time rapidly increases in the full 3D.
+<img src="static/img/numerics/geometry.png" alt="Geometry" class="center" style="width:20%">
+<h2>Results</h2>
+<h2>Refferences</h2>
+{% endblock %}
