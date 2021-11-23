@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'homepage',
     'numerics',
     'contact',
-    'News'
+    'News',
+    'analysis',
 ]
 
 MIDDLEWARE = [
