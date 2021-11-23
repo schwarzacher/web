@@ -1,7 +1,0 @@
-{% extend 'base.html' %}
-
-{% block title %} Contact {% endblock%}
-
-{% block content %}
-1234
-{% endblock %}
